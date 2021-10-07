@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>Email Template</title>
+</head>
+<style>
+table {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 15px
+}
+</style>
+
+<body class="body" style="padding:0 !important; margin:100px !important; display:block !important; -webkit-text-size-adjust:none; background:background-body"bgcolor="#dbdbdb">
+ <table align="center" border="0" cellpadding="0" cellspacing="0" width="640px" style="font-family: helvetica;" bgcolor="#ffffff">
+  <tr>
+      <tr>
+        <td bgcolor=" #ffffff" border="1px solid black" >
+            <center><img  style="height: 100px;" src="https://dreamaway-2.s3.us-east-2.amazonaws.com/Logo-DreamAway-gris-transparente.png"></center>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-radius:15px 15px 0px 0px ; padding: 20px 0px 20px 0px; text-align: center; font-size: 30px; color: #000000;  " bgcolor="#ffffff">
+          ¡Felicidades!
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 16px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff"></center>
+            <br bgcolor=" #ffffff">
+              <p>
+                Ya estas a un paso de ser parte de nuestra comunidad, solo nos queda confirmar tus datos, haz clic en el siguiente enlace:
+              </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 16px   "  bgcolor=" #ffffff">
+          <center>
+            <a href="{{url_from}}">
+              <img style="height: 40px; width: 260px"  src="https://dreamaway-2.s3.us-east-2.amazonaws.com/confirmar.png">
+            </a>
+          </center>
+        </td>
+      </tr>
+      <td bgcolor=" #ffffff">
+               &nbsp;
+           </td>
+       <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 14px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff"></center>
+              Si el boton no se muestra o no funciona, copia y pega la dirección URL en tu navegador:
+              <a href="{{url_from}}" style="color: #707070;">{{url_from}}</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 16px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff"></center>
+            <br bgcolor=" #ffffff">
+              <p>
+                Eres bienvenid@ a nuestra comunidad, ya queremos ver lo que tienes para compartir. Puedes comenzar editando tu perfil.
+              </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 16px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff"></center>
+              <p>
+                Si no has realizado esta solicitud, ignora este correo.
+              </p>
+        </td>
+      </tr>
+       <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #b5b5b5; font-size: 16px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff"></center>
+              <p>
+                ¿Cómo puedo saber que un correo electronico es de la comunidad de <strong>DreamAway</strong> ?
+              </p>
+        </td>
+      </tr>
+       <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #b5b5b5; font-size: 14px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff"></center>
+              <p>
+                Los enlaces de nuestros correos electronicos comienzan con "https://" y contiente "dreamaway.travel". Además tu navegador muestra el icono de un candado para que sepas que el sitio web es seguro.
+              </p>
+        </td>
+      </tr>
+       <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 14px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff">
+              <p>
+                Si necesitas ayuda escribenos al correo <a href="mailto:soporte@dreamaway.travel" style="color: #FBBB00;">soporte@dreamaway.travel</a>
+              </p>
+          </center>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 14px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff">
+              <p>
+                Este correo es para <strong>{{destination}}</strong>
+              </p>
+          </center>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: justify; padding: 5px 30px 5px 30px; color: #707070; font-size: 14px   "  bgcolor=" #ffffff">
+          <center bgcolor=" #ffffff">
+              <p>
+                <strong>DreamAway</strong> nombre comercial direccion
+              </p>
+          </center>
+        </td>
+      </tr>
+
+  </tr>
+</table>
+</body>
+
+</html>

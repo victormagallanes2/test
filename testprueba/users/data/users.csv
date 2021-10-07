@@ -1,0 +1,9 @@
+id,first_name,last_name,email,username,is_staff,is_superuser,is_active,password,role
+1,Gregorio,Cabeza,admin@example.com,admin,True,True,True,12345678,team
+2,Maria,Trueno,user_test@gmail.com,user_test,False,Fakse,True,12345678,expert
+3,Alex,Ramirez,alex12@gmail.com,alex12,False,False,True,12345678,expert
+4,Ana,Vivas,ana45@gmail.com,ana45,False,False,True,12345678,asociation
+5,Victor,Magallanes,victor777@gmail.com,victor777,False,False,True,12345678,asociation
+6,Jose,Martinez,jose635@gmail.com,jose635,False,False,True,12345678,default
+7,Betania,Moreno,betania45@gmail.com,betania45,False,False,True,12345678,default
+8,Monirul,Islam,monirul256@gmail.com,monirul256,False,False,True,12345678,default
